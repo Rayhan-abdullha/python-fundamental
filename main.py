@@ -1,5 +1,7 @@
-i = 5
-while i != 0:
-    print(i)
-    i = i-1
+a = 10
+b = 10
+# print(a is b)
 
+str = 'Hello Bangladesh'
+# print(a in str)
+print(str[:])

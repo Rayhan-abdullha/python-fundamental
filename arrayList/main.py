@@ -13,6 +13,13 @@ sum_val = sum(int_list)
 # print('min value = ',min_val)
 # print('sum = ', sum_val)
 
+int_list1 = [1, 2, 3, 4]
+int_list2 = [5, 6, 7]
+int_list1.append(10)
+int_list1.insert(1, 1000)
+int_list1.extend(int_list2)
+print(int_list1)
+
 # calculate sum
 # res_sum = 0
 # for val in int_list:
