@@ -2,7 +2,7 @@
 # float
 
 num1 = int(2.3)
-print(num1)  # prints 2
+print(type(num1))  # prints 2
 
 num2 = int(-2.8)
 print(num2)  # prints -2
@@ -12,3 +12,10 @@ print(num3) # prints 5.0
 
 num4 = complex('3+5j')
 print(num4)  # prints (3 + 5j)
+
+isOk = True
+print(type(isOk))
+
+name = 'ali'
+about_me = f'my name is coder {name}'
+print(about_me)
