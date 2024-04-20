@@ -1,7 +1,8 @@
-a = 10
-b = 10
-# print(a is b)
 
-str = 'Hello Bangladesh'
-# print(a in str)
-print(str[:])
+n = 1
+if n > 10:
+    print('ok your are child')
+elif n == 2:
+    print('you are adult')
+else:
+    print('not ok')

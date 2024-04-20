@@ -1,6 +1,21 @@
-a = 10
-b = ['coder', 'rayhan']
-c = 'coder rayhan'
+# Variables are dynamicly typed
+n = 0
+print('n =', n)
 
-print(a, b, c)
+n = "abc"
+print('n =', n)
+
+# Multiple assignments
+n, m = 0, "abc"
+n, m, z = 0.125, "abc", False
+
+# Increment
+n = n + 1 # good
+n += 1    # good
+
+
+# None is null (absence of value)
+n = 4
+n = None
+print("n =", n)
 
